@@ -1,0 +1,10 @@
+S1=input('ENTER YOUR MARKS :')
+S2=input('ENTER YOUR MARKS :')
+S3=input('ENTER YOUR MARKS :')
+S4=input('ENTER YOUR MARKS :')
+S5=input('ENTER YOUR MARKS :')
+S6=input('ENTER YOUR MARKS :')
+mylist=[S1,S2,S3,S4,S5, S6]
+mylist.sort()
+print(mylist)
+print('Average Marks',int(S1)+int(S2)+int(S3)+int(S4)+int(S5)+int(S6)/ 6)
